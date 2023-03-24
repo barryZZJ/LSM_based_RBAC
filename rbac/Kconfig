@@ -1,0 +1,6 @@
+config SECURITY_RBAC
+	bool "RBAC"
+	depends on SECURITY
+    default n
+	help
+	  A LSM based RBAC for OS security class
